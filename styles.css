@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    background-color:hsl(212, 45%, 89%);
+}
+
+.container {
+    width: 20%;
+    margin: 20rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+      padding: 10rem 3rem;
+    }
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+  }
+.qrcode-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+.text h2{
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.text p{
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    color: hsl(220, 15%, 55%);
+}
+
