@@ -5,8 +5,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#Screenshot)
-  - [Links](#Links)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -27,9 +27,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 
 
-<a id="links"></a>
+<a id="links"> ### Links </a>
 
-### Links
+
 
 - Solution URL: [My Solution Site URL](https://www.frontendmentor.io/solutions/qr-code-htmlcss-visual-code-studio-IKej7PojBD)
 - Live Site URL: [My Live Site URL](https://p-mingi.github.io/QrCodePage.github.io/)
