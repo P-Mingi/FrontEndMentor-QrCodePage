@@ -5,8 +5,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
+  - [Screenshot](#Screenshot)
+  - [Links](#Links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -19,7 +19,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
-<a id="screenshot"></a>
+
+
 ### Screenshot
 
 ![](https://raw.githubusercontent.com/P-Mingi/QrCodePage.github.io/main/images/screen-shot.png)
