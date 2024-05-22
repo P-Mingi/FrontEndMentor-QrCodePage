@@ -29,7 +29,6 @@ body {
     justify-content:center;
     margin: 15.2rem auto;
     border-radius: 2rem;
-    text-align: center;
     background-color: var(--White);
     
 }
@@ -51,6 +50,7 @@ body {
     height: 5.6rem;
     margin-bottom: 1.6rem;
     color: var(--Dark-blue);
+    text-align: center;
 }
 
 .card p {
