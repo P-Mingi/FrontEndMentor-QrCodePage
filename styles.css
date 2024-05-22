@@ -4,46 +4,57 @@
     padding: 0;
 }
 
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
 html {
     font-size: 62.5%;
     font-family: "Outfit", sans-serif;
 }
 
 body {
-    background-color:hsl(212, 45%, 89%);
+    background-color: var(--Light-gray);
 }
 
 .container {
-    width: 20%;
-    margin: 20rem auto;
-    padding: 2rem;
-    background-color: white;
-    border-radius: 1rem;
+    width: 32rem;
+    height: 49.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin: 15.2rem auto;
+    border-radius: 2rem;
     text-align: center;
+    background-color: var(--White);
+    
 }
-
-@media only screen and (max-width: 500px) {
-    body {
-      padding: 10rem 3rem;
-    }
-    .container {
-        width: 100%;
-        margin: 0;
-    }
-  }
 .qrcode-img {
-    max-width: 100%;
-    height: auto;
+    width: 28.8rem;
+    height: 28.8rem;
     border-radius: 1rem;
-}
-.text h2{
-    font-size: 2rem;
-    margin: 2rem 0;
+    margin-top: 1.6rem;
 }
 
-.text p{
+.card {
+    width: 28.8rem;
+    height: 12.9rem; 
+    margin: 2.4rem 0 4rem 0;   
+}
+
+.card h1 {
+    font-size: 2.2rem;
+    height: 5.6rem;
+    margin-bottom: 1.6rem;
+    color: var(--Dark-blue);
+}
+
+.card p {
     font-size: 1.5rem;
-    margin: 2rem 0;
-    color: hsl(220, 15%, 55%);
+    height: 5.7rem;
+    color: var(--Grayish-blue);
 }
-
